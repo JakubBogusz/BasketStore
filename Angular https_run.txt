@@ -1,3 +1,3 @@
 How to run ng serve with HTTPS:
  
-ng serve --ssl --ssl-key C:\Users\j.bogusz\Desktop\BasketStore\client\ssl\\server.key  --ssl-cert C:\Users\j.bogusz\Desktop\BasketStore\client\ssl\\server.crt
+ng serve --ssl --ssl-key C:\Users\j.bogusz\Desktop\BasketStore\client\ssl\server.key  --ssl-cert C:\Users\j.bogusz\Desktop\BasketStore\client\ssl\server.crt
