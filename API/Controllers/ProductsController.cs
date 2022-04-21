@@ -68,15 +68,15 @@ namespace API.Controllers
         }
 
         [HttpGet("types")]
-        public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetTypes()
+        public async Task<ActionResult<IReadOnlyList<ProductType>>> GetTypes()
         {
-            return Ok(await _productBrandRepo.ListAllAsync());
+            return Ok(await _productTypeRepo.ListAllAsync());
         }
 
         [HttpGet("brands")]
         public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetBrands()
         {
-            return Ok(await _productTypeRepo.ListAllAsync());
+            return Ok(await _productBrandRepo.ListAllAsync());
         }
     }
 }
